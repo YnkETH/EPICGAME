@@ -1,0 +1,111 @@
+:root {
+  --primero-color: #2c3e50;
+  --segundo-color: #ff283ad7;
+  --tercero-color: #0c0f2c;
+  --fondo-color: #f5f5f5;
+  --texto-color: #ffffff;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: linear-gradient(to right, #8716c2, #11181d, #169ad3);
+  padding: 10px;
+}
+.navLinks {
+  display: flex;
+  align-items: center;
+}
+
+.navLinks a {
+  text-decoration: none;
+  color: var(--texto-color);
+  margin: 0 10px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.navLinks a:hover {
+  color: var(--segundo-color);
+}
+
+.nav .userImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navButtons {
+  display: flex;
+  align-items: center;
+}
+
+.userIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 50%;
+  font-size: 35px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  margin-right: 20px;
+}
+.userLink {
+  text-decoration: none;
+  padding-left: 1.5rem;
+}
+
+.name {
+  color: var(--texto-color);
+  margin-right: 20px;
+}
+.nameContainer {
+  width: 250px;
+  margin-right: 20px;
+  padding-right: 20px;
+}
+.title {
+  margin-right: 30px;
+  font-size: 25px;
+  margin-left: 20px;
+}
+
+.contImage {
+  margin-right: 20px;
+  padding-right: 20px;
+}
+.logout {
+  display: flex;
+}
+
+@media (max-width: 900px) {
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #141d22;
+    padding: 10px;
+    width: 900px;
+  }
+  .userIcon {
+    margin-right: 100px;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1050px) {
+  .nav {
+    width: 1000px;
+  }
+  .userIcon {
+    margin-right: 100px;
+  }
+}

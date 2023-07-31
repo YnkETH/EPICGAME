@@ -1,0 +1,138 @@
+:root {
+    --melon: #E9AA94ff;
+    --salmon: #DA8673ff;
+    --moonstone: #76ADBEff;
+    --rust: #AA5637ff;
+    --paynes-gray: #4B6979ff;
+    --gunmetal: #2D3A44ff;
+}
+  
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    background-color: var(--gunmetal);
+    color: var(--white);
+    padding: 20px;
+  }
+  
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 2%;
+    width: 60%; /* Adjust the maximum width as needed */
+    background-color: var(--melon);
+    color: var(--gunmetal);
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+
+  .descriptionContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .descriptionContainer label {
+    margin-right: 10px;
+  }
+
+  .descriptionInput {
+    width: 100%;
+    height: auto;
+    overflow-wrap: anywhere;
+    word-wrap: break-word;
+    resize: vertical;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  
+  h1 {
+    color: var(--gunmetal);
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  label {
+    color: var(--gunmetal);
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  input[type="number"],
+  select {
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--gunmetal);
+  }
+  
+  /* button[type="submit"],
+  button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: var(--salmon);
+    color: var(--gunmetal);
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button[type="submit"]:hover,
+  button:hover {
+    background-color: var(--gunmetal);
+    color: var(--salmon);
+  } */
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin: 10px;
+  }
+  
+  p.error {
+    color: var(--gunmetal);
+    font-size: 15px;
+    margin: 0;
+  }
+
+  .list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .list div {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .list button {
+    margin-left: 5px;
+  }
+  
+
+  

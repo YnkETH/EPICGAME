@@ -1,0 +1,33 @@
+.image {
+  height: 70px;
+  width: 80px;
+}
+.body {
+  border: solid black;
+  margin-top: 5px;
+  overflow: auto;
+  margin-right: 10px;
+  height: 600px;
+  width: 300px;
+  border-radius: 8px;
+  padding-left: 10px;
+}
+
+.boton {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: rgb(53, 181, 42);
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.url {
+  text-decoration: none;
+}
+.item{
+  color:#9db1c5
+}

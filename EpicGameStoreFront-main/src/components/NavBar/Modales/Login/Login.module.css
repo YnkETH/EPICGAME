@@ -1,0 +1,82 @@
+:root {
+  --primero-color: #2c3e50;
+  --segundo-color: #c0392b;
+  --tercero-color: #555555;
+  --fondo-color: #f5f5f5;
+  --texto-color: #ffffff;
+}
+.navButton {
+  background-color: var(--segundo-color);
+  color: var(--texto-color);
+  border: none;
+  padding: 8px 16px;
+  margin-left: 10px;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.navButton:hover{
+  transition: all 0.5s ease-in-out;
+  color: rgba(166, 152, 62, 0.536);
+  background-color: rgba(0, 3, 11, 0.323);
+  } 
+
+
+.loginForm {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border-radius: 200px;
+  }
+.loginFormH2{
+    padding-top: 7%;
+    text-align: center;
+    margin-bottom: 20px;
+  }  
+  
+.loginFormForm {
+    display: flex;
+    flex-direction: column;
+  }
+
+  
+.buttonGoogle{
+    width: 60%;
+    height: 10%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #0077ff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+.buttonRegister{
+    width: 60%;
+    height: 10%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #c0392b;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }  
+
+.buttonRegister:hover{
+    transition: all 0.5s ease-in-out;
+    color: rgb(167, 36, 36);
+    background-color: rgba(34, 32, 32, 0.323);
+  }
+
+.buttonGoogle:hover{
+    transition: all 0.5s ease-in-out;
+    color: rgb(167, 36, 36);
+    background-color: rgba(34, 32, 32, 0.323);
+  }    
+    
+  

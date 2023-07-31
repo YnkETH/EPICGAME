@@ -1,0 +1,45 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Monomaniac+One&family=Ubuntu&display=swap"); */
+:root {
+  --primero-color: #2c3e50;
+  --segundo-color: #c0392b;
+  --tercero-color: #555555;
+  --fondo-color: #f5f5f5;
+  --texto-color: #ffffff;
+}
+.searchBarContainer {
+  position: relative;
+}
+
+.inputContainer {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.input {
+  padding-right: 40px; /* Espacio para el botón */
+}
+
+.searchButton {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  margin-bottom: 10px;
+  padding: 1px 10px;
+  background-color: rgb(112, 114, 114);
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  color: var(--texto-color);
+}
+.searchButton:hover{
+  color:var(--fondo-color);
+  background-color: var(--fondo-color);
+  border-radius: 5px;
+}
+
+.arrow {
+  font-size: 20px;
+}

@@ -1,0 +1,84 @@
+.navbar {
+  /* background-color: rgb(54, 97, 146); */
+  background-image: linear-gradient(to right, #3e1748, #11191d, #05393d);
+  padding: 10px;
+  margin: 10px;
+  margin-left: 46px;
+  width: 740px;
+  height: auto;
+  border-radius: 7px;
+  display: inline-table;
+  border: 2px solid white;
+}
+
+.navbarNav {
+  display: inline-flex;
+}
+
+.navItem {
+  margin-right: 5px;
+}
+
+.navLink {
+  color: #ffffff;
+  background-color: rgb(112, 114, 114);
+  padding: 2px;
+  height: 30px;
+  width: 27px;
+  border-radius: 5px;
+}
+
+.navLink:hover {
+  background-color: #ffffff;
+  color: rgb(112, 114, 114);
+}
+
+.spans {
+  padding-right: 5px;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  letter-spacing: 2px;
+}
+.selector {
+  width: 100px;
+  background-color: rgb(112, 114, 114);
+  color: #ffffff;
+}
+
+@media (max-width: 600px) {
+  .navbarNav {
+    flex-direction: column;
+    width: 150px;
+    align-items: center;
+  }
+  .navLink {
+    display: inline-table;
+    color: #ffffff;
+    background-color: rgb(112, 114, 114);
+    padding: 2px;
+    height: 30px;
+    width: 27px;
+    border-radius: 5px;
+  }
+  .navbar {
+    width: 200px;
+    margin-right: 30px;
+  }
+  .navItem {
+    margin-bottom: 10px;
+    /* Ajustar los estilos según tus necesidades */
+  }
+}
+
+@media (max-width: 300px) {
+  .navbar {
+    margin-right: 45px;
+  }
+}
+
+@media (min-width: 750px) and (max-width: 1000px) {
+  .navbar {
+    margin-right: 45px;
+  }
+}

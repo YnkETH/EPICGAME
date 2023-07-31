@@ -1,0 +1,83 @@
+:root {
+  --melon: #e9aa94ff;
+  --salmon: #da8673ff;
+  --moonstone: #76adbeff;
+  --rust: #aa5637ff;
+  --paynes-gray: #4b6979ff;
+  --gunmetal: #2d3a44ff;
+}
+
+.conteiner {
+  display: flex;
+}
+
+.formCont {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.form {
+  background-color: rgb(54, 97, 146);
+  border-radius: 5px;
+  border: 2px solid rgb(64, 99, 128);
+  padding: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 400px;
+  width: 800px;
+}
+
+.inputFormu {
+  color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+}
+
+.itemForm {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.itemName {
+  padding-right: 30px;
+  margin-top: 10px;
+  font-size: 25px;
+}
+.inputext{
+  height: 25px;
+  width: 300px;
+}
+
+.inputext:hover{
+  background-color: rgba(65, 65, 65, 0.521);
+  color: #ffffff;
+  border-color: #ffffff;
+  cursor: pointer;
+}
+
+.foto {
+  width: 75px;
+  height: 75px;
+  border-radius: 5px;
+  border-color: black;
+}
+
+.vendor {
+  display: grid;
+  padding-top: 5px;
+  padding-left: 20px;
+  margin-top: 60px;
+  margin-left: 5px;
+  background-color: rgba(107, 107, 107, 0.5);
+  border-radius: 5px;
+  border: 2px solid rgb(64, 99, 128);
+  color: rgb(255, 255, 255);
+}
+.btn {
+  height: 30px;
+  width: 100px;
+}
+.title {
+  font-size: 20px;
+}

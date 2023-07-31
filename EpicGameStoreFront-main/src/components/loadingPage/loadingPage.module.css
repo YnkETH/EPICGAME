@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Monomaniac+One&family=Ubuntu&display=swap');
+
+:root {
+  --melon: #E9AA94ff;
+  --salmon: #DA8673ff;
+  --moonstone: #76ADBEff;
+  --rust: #AA5637ff;
+  --paynes-gray: #4B6979ff;
+  --gunmetal: #2D3A44ff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--gunmetal);
+}
+
+.loading-gif {
+  width: 200px; /* Adjust the width as needed */
+  height: 200px; /* Adjust the height as needed */
+  margin-bottom: 20px;
+}
+
+.message {
+  font-size: 32px;
+  color: var(--salmon);
+  font-weight: bold;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 1s steps(9) infinite;
+}
+
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+  40% {
+    width: 0;
+  }
+  60% {
+    width: 100%;
+  }
+  80% {
+    width: 100%;
+  }
+  100% {
+    width: 0;
+  }
+}

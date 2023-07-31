@@ -1,0 +1,33 @@
+/* MercadoPago.module.css */
+.buttonPayNow {
+  background-color: #007bff;
+  color: #ffffff;
+  font-size: 25px;
+  border: 2px solid white;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.buttonPayNow:hover {
+  transform: scale(1.2);
+  background-color: rgb(113, 255, 47);
+  border: 2px solid rgb(3, 3, 3);
+}
+
+.loadingAnimation {
+  display: inline-block;
+  animation: spin 1s linear infinite;
+  font-size: 20px;
+  color: #007bff;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
